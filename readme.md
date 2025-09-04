@@ -10,7 +10,7 @@ You can check out the [demo page to see the effect in action](test.html) with th
 
 You can use as many bars as you want to in a single page. The syntax to include a bar is the following: 
 
-{% include cssbar.html duration="2s" id="guesttopic" styleblock="yes" %}
+{​% include cssbar.html duration="2s" id="guesttopic" styleblock="yes" %​}
 
 * The `duration` variable defines how long the progress should take
 * The `id` variable is necessary to and has to be unique to make the functionality work
