@@ -16,6 +16,19 @@ You can use as many bars as you want to in a single page. The syntax to include 
 * The `id` variable is necessary to and has to be unique to make the functionality work
 * If the `styleblock` is set, the include will add a `style` with the necessary [css rules](css-progress-bar.css) so you don't have to add them to the main site styles. You only need to do that in one of the includes. 
 
+## Using the bar in HTML documents
+
+You can of course also use the bar in pure HTML documents, as shown in [the codepen](https://codepen.io/codepo8/pen/raOogYe). The syntax is:
+
+```html
+<div class="progressbar" style="--duration: 2s;">
+    <input type="checkbox" id="progress">
+    <label for="progress">start<span></span></label>
+</div>
+```
+
+Don't forget to set a unique id both in the checkbox and the label and define the duration in the inline style.
+
 ## Drawbacks
 
 * This is a bit of a hack as it is not accessible to non-visual users and abuses checkboxes to keep it CSS only. It is keyboard accessible though. 
