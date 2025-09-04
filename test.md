@@ -1,9 +1,9 @@
 
 # CSS Progress Bar Demo page
 
-Always acrivate `start` to see the example.
+Always activate `start` to see the example.
 
-# Two seconds with style block included
+## Two seconds with style block included
 
 ```liquid
 {% raw %}{% include cssbar.html duration="2s" id="guesttopic" styleblock="yes" %}{% endraw %}
@@ -11,7 +11,7 @@ Always acrivate `start` to see the example.
 
 {% include cssbar.html duration="2s" id="guesttopic" styleblock="yes" %}
 
-# Five seconds 
+## Five seconds 
 
 ```liquid
 {% raw %}{% include cssbar.html duration="5s" id="topic1" %}{% endraw %}
@@ -19,7 +19,7 @@ Always acrivate `start` to see the example.
 
 {% include cssbar.html duration="5s" id="topic1" %}
 
-# One second 
+## One second 
 
 ```liquid
 {% raw %}{% include cssbar.html duration="1s" id="topic2" %}{% endraw %}
