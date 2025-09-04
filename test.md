@@ -3,8 +3,10 @@
 
 # Two seconds with style block included
 
-```liquid 
+```liquid
+{% raw %}
 {% include cssbar.html duration="2s" id="guesttopic" styleblock="yes" %}
+{% endraw %}
 ```
 
 {% include cssbar.html duration="2s" id="guesttopic" styleblock="yes" %}
