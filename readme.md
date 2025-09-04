@@ -4,7 +4,7 @@ For our weekly [WeAreDevelopers Live Show](https://www.wearedevelopers.com/en/li
 
 ![Progress bars in action](progress.gif)
 
-You can check out the [demo page to see the effect in action](test.html) with the liquid source code or play with the few lines of CSS in [this codepen](https://codepen.io/codepo8/pen/raOogYe). Fork this repo to use it in your pages or just copy the `_includes` folder.
+You can check out the [demo page to see the effect in action](https://codepo8.github.io/css-progress-bar/test.html) with the liquid source code or play with the few lines of CSS in [this codepen](https://codepen.io/codepo8/pen/raOogYe). Fork this repo to use it in your pages or just copy the `_includes` folder.
 
 ## Using the CSS time progress bar 
 
