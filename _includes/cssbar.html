@@ -1,10 +1,10 @@
 {% if include.styleblock != nil %}
 <style>
 .progressbar {      
+    --duration: 5s;
     color-scheme: light dark;
     color: light-dark(#333, #f8f8f8);
     background-color: light-dark(#eee, #333);
-    --duration: 5s;
     font-family: sans-serif;
     font-size: 1em;
     line-height: 1em;
@@ -21,7 +21,7 @@
         position: absolute;
         right: 10px;
         bottom: 0;
-        background-color: light-dark(#eee, #666);
+        background-color: light-dark(#eee, #999);
         display: block;
         width: calc(100% - 10px);
         height: 10px;
