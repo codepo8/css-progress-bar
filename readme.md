@@ -2,7 +2,7 @@
 
 For our weekly [WeAreDevelopers Live Show](https://www.wearedevelopers.com/en/live) I wanted to have a way to include a time progess bar into the [page we show](https://devrel.wearedevelopers.com/live/2025-08-27.html). The problem there was that these are markdown files using GitHub Pages and whilst I do use some scripting in them, I wanted to make sure that I could have this functionality in pure CSS so that it can be used on GitHub without having to create an html template. And here we are. 
 
-![Progress bars in action](progress.gif)
+![Progress bars in action](css-progress-bar.gif)
 
 You can check out the [demo page to see the effect in action](https://codepo8.github.io/css-progress-bar/test.html) with the liquid source code or play with the few lines of CSS in [this codepen](https://codepen.io/codepo8/pen/raOogYe). Fork this repo to use it in your pages or just copy the `_includes` folder.
 
@@ -36,6 +36,6 @@ Don't forget to set a unique id both in the checkbox and the label and define th
 
 ## TODO / Feature ideas
 
-<del>* dark/light mode</del> 
+* <del>dark/light mode</del> 
 * changing label messages over time
 * Add warning sound at the end
