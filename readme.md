@@ -23,7 +23,7 @@ You can of course also use the bar in pure HTML documents, as shown in [the code
 ```html
 <div class="progressbar" style="--duration: 2s;">
     <input type="checkbox" id="progress">
-    <label for="progress">start<span></span></label>
+    <label for="progress">start</label>
 </div>
 ```
 
@@ -36,6 +36,6 @@ Don't forget to set a unique id both in the checkbox and the label and define th
 
 ## TODO / Feature ideas
 
-* dark/light mode 
+<del>* dark/light mode</del> 
 * changing label messages over time
 * Add warning sound at the end
