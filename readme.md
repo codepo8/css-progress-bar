@@ -37,5 +37,5 @@ Don't forget to set a unique id both in the checkbox and the label and define th
 ## TODO / Feature ideas
 
 * <del>dark/light mode</del> 
-* changing label messages over time
+* <del>changing label messages over time</del>
 * Add warning sound at the end

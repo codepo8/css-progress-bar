@@ -1,6 +1,5 @@
 {% if include.styleblock != nil %}
-<style>
-.progressbar {      
+<style>.progressbar {      
     --duration: 5s;
     color-scheme: light dark;
     color: light-dark(#333, #f8f8f8);
@@ -14,6 +13,16 @@
     input[type="checkbox"] {
         display: none;
     }
+    label:before {
+        color: white;
+        position: absolute;
+        background-color: light-dark(#ddd, #333);
+        content: 'start';
+        font-size: 1em;
+    }
+    input[type="checkbox"]:checked + label:before{
+        content:'running';
+    } 
     input[type="checkbox"]:checked + label:after{ 
         width: 0;
         transition: width var(--duration) linear;
@@ -31,6 +40,7 @@
     }
     label {
         text-indent: 5px;
+        font-size: 1em;
         padding: 5px 0 15px 0;
         position: relative;
         display: block;
@@ -42,6 +52,7 @@
         width: 100%;
     }
 }
+
 </style>
 {% endif %}
 <div class="progressbar" style="--duration: {{ include.duration }};">
